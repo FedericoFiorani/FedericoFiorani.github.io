@@ -49,3 +49,9 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+title: My Website
+description: Welcome to my Jekyll-powered website
+baseurl: "" # Leave blank for a GitHub Pages project website
+url: "https://yourusername.github.io" # Replace with your GitHub Pages URL
+theme: minima # Default theme, or choose another Jekyll theme
